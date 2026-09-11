@@ -1,0 +1,64 @@
+{
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.8033,
+      "precision": 0.7692,
+      "recall": 0.9091,
+      "f1": 0.8333,
+      "roc_auc": 0.8755,
+      "best_params": {
+        "C": 0.1
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.8197,
+      "precision": 0.775,
+      "recall": 0.9394,
+      "f1": 0.8493,
+      "roc_auc": 0.9129,
+      "best_params": {
+        "max_depth": null,
+        "n_estimators": 200
+      }
+    },
+    "xgboost": {
+      "accuracy": 0.7541,
+      "precision": 0.7368,
+      "recall": 0.8485,
+      "f1": 0.7887,
+      "roc_auc": 0.8582,
+      "best_params": {
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "n_estimators": 200
+      }
+    },
+    "svm": {
+      "accuracy": 0.8033,
+      "precision": 0.8182,
+      "recall": 0.8182,
+      "f1": 0.8182,
+      "roc_auc": 0.869,
+      "best_params": {
+        "C": 1,
+        "kernel": "rbf"
+      }
+    }
+  },
+  "best_model": "random_forest",
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ]
+}

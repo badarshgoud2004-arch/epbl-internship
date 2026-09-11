@@ -1,0 +1,24 @@
+{
+  "top_features_by_shap": [
+    "cp",
+    "thal",
+    "ca",
+    "oldpeak",
+    "exang"
+  ],
+  "known_literature_risk_factors": [
+    "thalach",
+    "thal",
+    "ca",
+    "age",
+    "cp",
+    "oldpeak"
+  ],
+  "overlap_with_literature": [
+    "cp",
+    "thal",
+    "ca",
+    "oldpeak"
+  ],
+  "agreement_ratio": 0.67
+}

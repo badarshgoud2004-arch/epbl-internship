@@ -1,0 +1,22 @@
+{
+  "top_features_by_shap": [
+    "glucose",
+    "bmi",
+    "age",
+    "diabetes_pedigree",
+    "insulin"
+  ],
+  "known_literature_risk_factors": [
+    "glucose",
+    "diabetes_pedigree",
+    "bmi",
+    "age"
+  ],
+  "overlap_with_literature": [
+    "glucose",
+    "bmi",
+    "age",
+    "diabetes_pedigree"
+  ],
+  "agreement_ratio": 1.0
+}

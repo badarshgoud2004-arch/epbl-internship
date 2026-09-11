@@ -1,0 +1,26 @@
+{
+  "age_band": {
+    "35_54": {
+      "n": 31,
+      "accuracy": 0.871,
+      "false_negative_rate": 0.048
+    },
+    "55_plus": {
+      "n": 30,
+      "accuracy": 0.767,
+      "false_negative_rate": 0.083
+    }
+  },
+  "sex": {
+    "female": {
+      "n": 19,
+      "accuracy": 0.895,
+      "false_negative_rate": 0.062
+    },
+    "male": {
+      "n": 42,
+      "accuracy": 0.786,
+      "false_negative_rate": 0.059
+    }
+  }
+}
